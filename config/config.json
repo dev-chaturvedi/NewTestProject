@@ -1,0 +1,57 @@
+{
+    "development": {
+        "config_id": "development",
+        "app_name": "akari",
+        "app_desc": "akari",
+        "node_port": 1600,
+        "json_indentation": 4,
+        "host":"localhost",
+        "basicAuthUser":"akari",
+        "basicAuthKey":"SFDSA78FSA7FFDSAFJRE32DSF98DSGFDGFDSH9H8FDSGFR4R549898DFDS",
+        "database": "akari-App-dev",
+        "url":"http://172.16.6.241:4200/reset-password",
+        "user":"la-najmuddin@mobiloitte.com",
+        "pass":"Mobiloitte@1",
+            "cloudinary":{ 
+                "cloud_name":"", 
+                "api_key": "", 
+                "api_secret": ""
+            }
+    },
+    "staging": {
+        "config_id": "staging",
+        "node_port": 1507,
+        "database": "akari-App-stag",
+        "url":"http://172.16.6.165:1507/api/v1/",
+        "host":"localhost",
+        "basicAuthUser":"walletapp",
+        "user":"la-najmuddin@mobiloitte.com",
+        "pass":"Mobiloitte@1",
+        "basicAuthKey":"SFDSA78FSA7FFDSAFJRE32DSF98DSGFDGFDSH9H8FDSGFR4R549898DFDS",
+            "cloudinary":{ 
+                "cloud_name":"", 
+                "api_key": "", 
+                "api_secret": ""
+            }
+    },
+    "production": {
+        "config_id": "production",
+        "node_port": 1600,
+        "database": "akari-App",
+        "host":"localhost",
+        "basicAuthUser":"walletapp",
+        "user":"la-najmuddin@mobiloitte.com",
+        "pass":"Mobiloitte@1",
+        "basicAuthKey":"SFDSA78FSA7FFDSAFJRE32DSF98DSGFDGFDSH9H8FDSGFR4R549898DFDS",
+        "nodemailer":{
+            "user":"",
+            "pass":""
+        },
+        "cloudinary":{ 
+            "cloud_name":"", 
+            "api_key": "", 
+            "api_secret": ""
+        }
+    }
+}
+
